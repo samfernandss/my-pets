@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" />
+	<script defer src="script.js"></script>
+	<title>My Pets</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="form">
+			<row>
+				<label class="col-sm-6">Nome do seu Pet:</label>
+				<input type="text" name="input" placeholder="Digite aqui" class="col-sm-6">
+			</row>
+			<label>Idade do seu Pet:</label>
+			<input type="text" name="input" placeholder="Digite aqui" class="col col-4">
+			<label>Seu Nome:</label>
+			<input type="text" name="input" placeholder="Digite aqui" class="col col-4">
+		</div>
+		<button class="btn">Enviar</button>
+	</div>
+
+	<div class="container">
+		<ul class="responsive-table">
+			<h2>Pets Register</h2>
+			<li class="table-header">
+				<div class="col col-2">Pet Name</div>
+				<div class="col col-4">Age in Years</div>
+				<div class="col col-3">Owner Name</div>
+			</li>
+			<li class="table-row">
+				<div class="col col-2" data-label="Customer Name">John Doe</div>
+				<div class="col col-3" data-label="Amount">$350</div>
+				<div class="col col-4" data-label="Payment Status">Pending</div>
+			</li>
+			<li class="table-row">
+				<div class="col col-2" data-label="Customer Name">Jennifer Smith</div>
+				<div class="col col-3" data-label="Amount">$220</div>
+				<div class="col col-4" data-label="Payment Status">Pending</div>
+			</li>
+		</ul>
+	</div>
+</body>
+
+</html>
